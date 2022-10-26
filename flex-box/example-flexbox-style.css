@@ -1,0 +1,171 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+@font-face {
+    font-family: Prophet;
+    src: url(/fonts/ABCProphet-Light-Trial.woff);
+  }
+
+.container {
+    display: flex;
+    flex-direction:column;
+    font-family: Prophet;
+    text-transform: capitalize;
+    font-size: 2rem;
+}
+
+section {
+    display: flex;
+}
+
+section img {
+    width: 500px;
+}
+
+section > div {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 70px 0px;;
+}
+
+section > div h3 {
+    padding-top: 20px;
+}
+
+.subSection-1 {
+    background-color: rgb(229, 229, 229);
+}
+
+.subSection-2 {
+    background-color: rgb(249, 248, 239);
+}
+
+.newsletter-section {
+    height: 27vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('./images/bg-image.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+[type="text"] {
+    width: 30vw;
+    pointer-events: auto;
+    font-family: Prophet;
+    height: 90px;
+    outline: none;
+    border: none;
+    margin: 0 !important;
+    padding: 0 !important;
+    max-width: 450px;
+    font-size: 32px;
+    background: #d2d14e;
+    text-align: center;
+}
+
+[type="submit"] {
+    width: 6vw;
+    background-color: #fc5d15;
+    text-transform: capitalize;
+    background-size: auto 100%;
+    font-size: 32px;
+    pointer-events: auto;
+    font-family: Prophet;
+    height: 90px;
+    margin: 0 !important;
+    padding: 0 !important;
+    outline: none;
+    border: none;
+}
+
